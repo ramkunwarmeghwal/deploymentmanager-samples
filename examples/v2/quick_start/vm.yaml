@@ -46,3 +46,6 @@ resources:
       accessConfigs:
       - name: External NAT
         type: ONE_TO_ONE_NAT
+
+#run this command
+#gcloud deployment-manager deployments create quick-start-deployment --config vm.yaml
